@@ -5,7 +5,7 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-:root {
+ :root {
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -7535,7 +7535,7 @@ button.bg-dark:focus {
 
 .p-3 {
   /* padding: 1rem !important; */
-  padding-top: 25rem;
+  padding-top: 30rem;
   padding-right: 1rem;
   padding-bottom: 1rem;
   padding-left: 1rem;
@@ -9773,3 +9773,38 @@ a.text-dark:hover, a.text-dark:focus {
 
  
 
+
+/* Adjusted styles for responsiveness */
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 768px) {
+  body {
+    font-size: 15px;
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.75rem;
+  }
+
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .btn {
+    font-size: 0.9rem;
+    padding: 10px 15px;
+  }
+}
