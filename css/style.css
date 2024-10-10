@@ -7462,10 +7462,7 @@ button.bg-dark:focus {
 }
 
 .p-0 {
-  padding-top: 0px;
-padding-right: 0px;
-padding-bottom: 0px;
-padding-left: 0px;
+  padding: 0 !important;
 }
 
 .pt-0,
@@ -7538,7 +7535,7 @@ padding-left: 0px;
 
 .p-3 {
   /* padding: 1rem !important; */
-  padding-top: 40rem;
+  padding-top: 30rem;
   padding-right: 1rem;
   padding-bottom: 1rem;
   padding-left: 1rem;
