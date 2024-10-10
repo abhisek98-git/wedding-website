@@ -366,6 +366,13 @@ h1, h2, h3, h4, h5, h6,
   line-height: 1.2;
   color: #121F38;
 }
+h8 ,
+.h8{
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
 
 h1, .h1 {
   font-size: 2.5rem;
@@ -6104,7 +6111,8 @@ button.bg-primary:focus {
 }
 
 .bg-secondary {
-  background-color: #EDF5F7 !important;
+  background-color: white !important;
+  opacity: 0.4;
 }
 
 a.bg-secondary:hover, a.bg-secondary:focus,
@@ -7610,6 +7618,12 @@ button.bg-dark:focus {
   padding-bottom: 3rem !important;
   background: url(../img/about_us-bg.jpg);
 }
+
+.py-5-story {
+  padding-bottom: 3rem !important;
+  background: url(../img/story-bg.jpg);
+}
+
 
 .pl-5,
 .px-5 {
@@ -9329,10 +9343,7 @@ a.text-danger:hover, a.text-danger:focus {
 a.text-light:hover, a.text-light:focus {
   color: #d9d9d9 !important;
 }
-
-.text-dark {
-  color: #121F38 !important;
-}
+ 
 
 a.text-dark:hover, a.text-dark:focus {
   color: black !important;
