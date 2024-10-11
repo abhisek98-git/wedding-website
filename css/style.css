@@ -638,7 +638,6 @@ pre code {
 
 .row {
   display: flex;
-  flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
 }
@@ -6112,7 +6111,6 @@ button.bg-primary:focus {
 
 .bg-secondary {
   background-color: white !important;
-  opacity: 0.4;
 }
 
 a.bg-secondary:hover, a.bg-secondary:focus,
@@ -9712,8 +9710,8 @@ a.text-dark:hover, a.text-dark:focus {
     font-family: "Font Awesome 5 Free";
     font-weight: 400;
     position: absolute;
-    top: calc(50% - 10px);
-    left: calc(50% - 8px);
+    top: calc(50% - 12px);
+    left: calc(50% - 10px);
     color: #E47A2E;
     z-index: 2;
   }
@@ -9798,6 +9796,41 @@ a.text-dark:hover, a.text-dark:focus {
   h2 {
     font-size: 1.75rem;
   }
+
+  .timeline::after {
+    position: absolute;
+    content: "";
+    width: 2px;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -1px;
+    background: #E47A2E;
+  }
+  .timeline .row::before {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: calc(50% - 15px);
+    left: calc(50% - 15px);
+    background: #FFFFFF;
+    border: 2px solid #E47A2E;
+    transform: rotate(45deg);
+    z-index: 1;
+  }
+  .timeline .row::after {
+    content: "\f004";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 400;
+    position: absolute;
+    top: calc(50% - 10px);
+    left: calc(50% - 8px);
+    color: #E47A2E;
+    z-index: 2;
+  }
+}
+
   .p-3 {
     /* padding: 1rem !important; */
     padding-top: 25rem;
